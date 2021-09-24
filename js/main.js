@@ -27,7 +27,7 @@ for (var pokemon of pokemons) {
   newSpawnTime.textContent = `Spawns time: ${pokemon.spawn_time}`;
   newMultipliers.textContent = `Multipliers: ${pokemon.multipliers}`;
   newWeaknesses.textContent = `Weaknesses: ${pokemon.weaknesses}`;
-  newHeading.textContent = `Name: ${pokemon.name}`;
+  newHeading.textContent = `${pokemon.name}`;
 
   elSiteNav.setAttribute('class','m-0 p-0 list-unstyled d-flex flex-wrap justify-content-between pt-5')
   siteNavItem.setAttribute('class', 'site-nav__item d-flex flex-column mb-5');
